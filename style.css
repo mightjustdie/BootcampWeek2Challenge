@@ -43,7 +43,7 @@ nav a:hover {
     color:white;
     text-decoration: underline;
 }
-main h1 {
+#about {
     display: flex;
     font-size: 175%;
     padding-top: 35px;
@@ -51,22 +51,29 @@ main h1 {
     text-decoration: underline;
 }
 main img{
-    float: left;
-    padding-right: 25px;
-    padding-left: 100px;
-    width:  50%;
-    height: 50%;
+    max-width: 386.875px;
+    max-height: 263.75px;
     display: flex;
+    justify-content: space-between;
 }
 main p {
+    
     display: flexbox;
     font-size: 18px;
     border: solid 2px black;
     background-color: #AF8CC7;
     font-weight:600;
-    
-    
+    justify-content: space-between;
 }
+
+#work {
+    display: flex;
+    font-size: 200%;
+    padding-top: 35px;
+    padding-left: 20px;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
     header {
       flex-direction: column;
@@ -75,5 +82,11 @@ main p {
     main {
       max-width: 1200px;
       flex-direction: column;
+    }
+    #about {
+        flex-direction: column;
+    }
+    main img {
+        padding: 10px;
     }
   }
