@@ -50,13 +50,15 @@ nav a:hover {
     padding-left: 20px;
     text-decoration: underline;
 }
-main img{
+#self{
     max-width: 386.875px;
     max-height: 263.75px;
-    display: flex;
+    display: block;
     justify-content: space-between;
+    margin: auto;
+    
 }
-main p {
+#firsttext{
     
     display: flexbox;
     font-size: 18px;
@@ -64,6 +66,8 @@ main p {
     background-color: #AF8CC7;
     font-weight:600;
     justify-content: space-between;
+    padding: 10px;
+    margin: 20px;
 }
 
 #work {
@@ -72,6 +76,14 @@ main p {
     padding-top: 35px;
     padding-left: 20px;
     text-decoration: underline;
+}
+
+#one {
+    display: block;
+    justify-content: space-between;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -86,7 +98,12 @@ main p {
     #about {
         flex-direction: column;
     }
-    main img {
+    #self {
         padding: 10px;
+    }
+    #one {
+        flex-direction: column;
+        max-width: 75%;
+        max-height: 75%;
     }
   }
