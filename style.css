@@ -56,11 +56,10 @@ main img{
     padding-left: 100px;
     width:  50%;
     height: 50%;
-    min-width: 309.5px;
-    min-height: 211px;
+    display: flex;
 }
 main p {
-    display: flex;
+    display: flexbox;
     font-size: 18px;
     border: solid 2px black;
     background-color: #AF8CC7;
@@ -75,5 +74,6 @@ main p {
   
     main {
       max-width: 1200px;
+      flex-direction: column;
     }
   }
