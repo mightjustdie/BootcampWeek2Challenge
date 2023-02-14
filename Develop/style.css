@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body {
@@ -17,7 +18,6 @@ header {
     align-items: center;
     padding: 15px;
     background-color: darkgray;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
 }
 
@@ -80,19 +80,25 @@ nav a:hover {
     text-align: center;
 }
 
-#one {
+#one, #two {
     display: block;
     max-width: 100%;
     margin: auto;
     margin-bottom: 10px;
     opacity: 50%;
 }
+
+#two {
+    width: auto;
+    height: auto;
+}
 #one:hover {
     opacity: 100%;
 }
 .placeholders {
     display: block;
-    max-width: 100%;
+    width: auto;
+    height: auto;
     text-align: center;
     margin-bottom: 10px;
     opacity: 50%;
